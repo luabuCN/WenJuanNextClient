@@ -1,4 +1,4 @@
-const HOST = " http://38.6.190.246:3001";
+const HOST = " http://38.55.232.117:3001";
 
 export async function get(url: string) {
   const res = await fetch(`${HOST}${url}`);
